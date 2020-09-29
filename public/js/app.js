@@ -1,5 +1,3 @@
-console.log('Loaded Successfully');
-
 // Setup the form
 const weatherForm = document.querySelector('form');
 const searchElement = document.querySelector('input');
