@@ -1,9 +1,11 @@
 body {
     color: #333333;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
+    font-weight: bold;
+
 
     /* flex-box styles */
     display: flex;
@@ -30,6 +32,8 @@ header {
 h1 {
     font-size: 64px;
     margin-bottom: 16px;
+    color: #3b2f5c;
+    
 }
 
 header a {
@@ -37,9 +41,10 @@ header a {
     margin-right: 16px;
     text-decoration: none;
     transition: all 0.5s;
+    border-bottom: 2px solid #888888;
 }
 header a:hover {
-   color: black;
+   color: rgb(51, 31, 121);
 }
 
 .portrait {
@@ -60,9 +65,11 @@ button {
 }
 
 #message-1 {
-    color: rgb(84, 83, 184);
+    color: rgb(44, 43, 146);
+    font-weight: bold;
 }
 
 #message-2 {
-    color: #852ca0;
+    color: #0d3458;
+    font-weight: bold;
 }
