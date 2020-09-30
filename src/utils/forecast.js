@@ -20,7 +20,7 @@ const forecast = (lat, long, callback) => {
         } else if (body.message) {
             callback('Unable to find location!. Try another search');
         } else {
-            const data = `${body.weather[0].description}. It is currently ${body.main.temp} degrees out. There is a ${body.clouds.all}% chance of rain.`
+            const data = `${body.weather[0].description}. It is currently ${body.main.temp} degrees out. There is a ${body.clouds.all}% chance of rain. The high temp today is ${body.main.temp_max} and the low temp is ${body.main.temp_min}. The humidity today is ${body.main.humidity}`;
 
             callback(undefined, data);
         }
